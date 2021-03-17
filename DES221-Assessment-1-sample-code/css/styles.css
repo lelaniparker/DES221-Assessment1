@@ -16,41 +16,68 @@ body {
 .header p.name {
   font-family: Copperplate, Garamond, serif;
   font-size: 30px;
-  color: #485770;
+  padding-top: 5px ;
+  padding-bottom: 0;
+  margin: 0;
+  /* color: #485770; */
+  /* color: #0e3881; */
+  color: white;
 }
 
 .header p.tagline {
   font-family: Garamond, serif;
   font-size: 16px;
-  padding: 0px;
+  margin: 0;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 img.logo {
   float: left;
-  width: 220px;
+  max-width: 76.797px;
 }
 
-img.hero-image {
+
+/* img.hero-image {
   display: block;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 10px;
   width: 600px;
+} */
+
+/* hero-section */
+.hero-section {
+  padding-top: 25vh;
+  text-align: center;
+}
+
+.hero-section h1 {
+  color: white;
+  font-size: 60px;
+  font-family: Copperplate, Garamond, serif;
+  letter-spacing: 2px;
 }
 
 
 /* ----- Navigation ----- */
 
+.topnav-icons {
+  margin-top: 25px;
+  margin-bottom: 10px;
+} 
+
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #000;
+  background-color: #303949;
   overflow: hidden;
   clear: left;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  float: right;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -64,9 +91,21 @@ img.hero-image {
   color: black;
 }
 
+/* Change the color of links on hover for logo*/
+.header-section.left a:hover {
+  background-color: #303949;
+  color: black;
+}
+
+.header-section.left a {
+  padding: 0;
+}
+
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #485770;
+  background-color: black;
+  border-radius: 8px;
+  /* background-color: #4d5d77; */
   color: white;
 }
 
@@ -78,7 +117,7 @@ img.hero-image {
 }
 
 .header-section.left {
-  width: 240px;
+  /* width: 240px; */
 }
 
 .header-section.right {
@@ -139,14 +178,20 @@ div.clearfix::after {
 
 /* Style the footer */
 .footer {
-  background-color: #000;
+  background-color: #303949;
   overflow: hidden;
   clear: left;
   color: #f2f2f2;
-  text-align: left;
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+.footer i {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
 }
 
 
@@ -155,4 +200,3 @@ div.clearfix::after {
   .column.side, .column.middle {
     width: 100%;
   }*/
-}
