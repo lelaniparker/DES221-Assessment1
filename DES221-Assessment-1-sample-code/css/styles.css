@@ -38,15 +38,6 @@ img.logo {
   max-width: 76.797px;
 }
 
-
-/* img.hero-image {
-  display: block;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  width: 600px;
-} */
-
 /* hero-section */
 .hero-section {
   padding-top: 25vh;
@@ -138,10 +129,11 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.contact {
+.contactform {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  margin: 20px 0;
 }
 
 /* Create two unequal columns that float next to each other for the title section */
