@@ -105,13 +105,14 @@ img.logo {
   flex-direction: row;
   justify-content: space-around;
   padding: 0 20px;
+  background-color: #f2f2f2;
 }
 
 .email {
   display: flex;
   flex-direction: column;
   padding-right: 50px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   /* max-height: 350px; */
 }
 
@@ -120,23 +121,26 @@ img.logo {
   margin-bottom: 50px;
 }
 
-/* .email h2 {
-  margin: 5px 0;
-} */
-
 .email h3 {
-  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.email h4 {
+  margin-top: 5px;
   margin-bottom: 5px;
 }
 
 .contact-img {
   display: flex;
   flex-direction: row;
+  margin-right: 10px;
 }
 
 .contact-img p {
-  margin-right: 10px;
+  width: 230px;
 }
+
 
 /* adding contact form styling */
 /* Style inputs with type="text", select elements and textareas */
@@ -151,13 +155,15 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-#subject {
+/* #subject {
   height: 150px;
-}
+} */
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  /* background-color: #3b8d3f; */
+  background-color: rgb(26, 26, 245);
+  /* background-color: #303949; */
   color: white;
   padding: 12px 20px;
   border: none;
@@ -167,16 +173,17 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #3b8d3f;
 }
 
 /* Add a background color and some padding around the form */
 .contactform {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  background-color: #fff;
   border: 1px solid #303949; /* Gray border */
   padding: 20px;
-  margin: 20px 0;
+  margin-top: 20px;
 }
 
 .contactform h2 {
