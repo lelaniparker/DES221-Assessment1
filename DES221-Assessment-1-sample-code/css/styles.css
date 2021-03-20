@@ -120,9 +120,22 @@ img.logo {
   margin-bottom: 50px;
 }
 
+/* .email h2 {
+  margin: 5px 0;
+} */
+
 .email h3 {
   margin-top: 20px;
   margin-bottom: 5px;
+}
+
+.contact-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-img p {
+  margin-right: 10px;
 }
 
 /* adding contact form styling */
