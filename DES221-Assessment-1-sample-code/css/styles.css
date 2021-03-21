@@ -123,15 +123,15 @@ img.logo {
 }
 
 .email h3 {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   margin-top: 40px;
   /* color: #303949; */
   font-size: 20px;
 }
 
 .email h4 {
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 .contact-img {
@@ -234,11 +234,20 @@ input[type=submit]:hover {
 }
 
 /* Image gallery styles */
+.project-main {
+  margin-left: 15px;
+}
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 23%;
 }
 
 div.gallery:hover {
