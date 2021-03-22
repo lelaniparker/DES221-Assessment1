@@ -158,10 +158,6 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* #subject {
-  height: 150px;
-} */
-
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
   /* background-color: #3b8d3f; */
@@ -259,8 +255,11 @@ div.gallery img {
   height: auto;
 }
 
+#last-gallery-item {
+  border: none;
+}
 div.desc {
-  padding: 15px;
+  padding: 15px 15px 0 15px;
   text-align: center;
 }
 
