@@ -291,7 +291,7 @@ div.clearfix::after {
 .about-section {
   display: flex;
   flex-direction: row;
-  padding: 0 40px 0 0;
+  padding-right: 40px;
 }
 
 .about-left {
@@ -303,9 +303,9 @@ div.clearfix::after {
   padding-bottom: 15px;
 }
 
-.about-right {
-  
-  text-align: center;
+.about-right img {
+  float: right;
+  border-radius: 8px;
 }
 
 /* -----------------------------SERVICES PAGE------------------------------ */
