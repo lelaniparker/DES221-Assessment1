@@ -64,6 +64,7 @@ img.logo {
   background-color: #303949;
   overflow: hidden;
   clear: left;
+  padding-right: 10px;
 }
 
 /* Style the links inside the navigation bar */
@@ -119,12 +120,13 @@ img.logo {
 
 .email p {
   width: 550px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-top: 8px;
 }
 
 .email h3 {
-  margin-bottom: 30px;
-  margin-top: 40px;
+  margin-bottom: 0;
+  margin-top: 20px;
   /* color: #303949; */
   font-size: 20px;
 }
@@ -137,12 +139,13 @@ img.logo {
 .contact-img {
   display: flex;
   flex-direction: row;
-  margin-right: 10px;
+  flex-wrap: nowrap;
+  /* margin-left: 10px; */
 }
 
-.contact-img p {
-  width: 230px;
-}
+/* .contact-img img {
+  margin-left: 0;
+} */
 
 
 /* adding contact form styling */
