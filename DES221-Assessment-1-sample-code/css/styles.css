@@ -237,11 +237,12 @@ input[type=submit]:hover {
 /* -----------------------------PORTFOLIO PAGE------------------------------ */
 /* Image gallery styles */
 .project-main {
-  margin-left: 15px;
+  text-align: center;
+  /* margin-left: 15px; */
 }
 .projects {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding-bottom: 20px;
 }
 
@@ -255,7 +256,7 @@ input[type=submit]:hover {
 }
 
 div.gallery {
-  margin: 5px;
+  margin: 10px;
   border: 1px solid #ccc;
   float: left;
   width: 23%;
@@ -278,11 +279,11 @@ div.desc {
   text-align: center;
 }
 
-div.clearfix::after {
+/* div.clearfix::after {
   content: "";
   clear: both;
   display: table;
-}
+} */
 
 /* -----------------------------ABOUT PAGE------------------------------ */
 .about {
@@ -309,6 +310,27 @@ div.clearfix::after {
 }
 
 /* -----------------------------SERVICES PAGE------------------------------ */
+/* div.services {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 23%;
+} */
+
+.services {
+  /* height: 180px; */
+  width: auto;
+  /* width: 100%;
+  height: auto; */
+  background-color: #303949;
+}
+
+.services h4 {
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50%;
+  color: white;
+}
 
  /* -----------------------------FOOTER------------------------------ */
 /* Style the footer */
