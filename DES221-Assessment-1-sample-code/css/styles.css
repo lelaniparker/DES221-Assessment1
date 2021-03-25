@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  /* background-color: #f2f2f2; */
+  background-color: #f2f2f2;
 }
 
 /* -----------------------------HEADER------------------------------ */
@@ -205,7 +205,7 @@ input[type=text], select, textarea {
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
   /* background-color: #3b8d3f; */
-  background-color: rgb(26, 26, 245);
+  background-color: #1a1af5;
   /* background-color: #303949; */
   color: white;
   padding: 12px 20px;
@@ -245,6 +245,7 @@ input[type=submit]:hover {
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
+  border-radius: 4px;
 }
 
 .project-main h1 {
@@ -258,9 +259,11 @@ input[type=submit]:hover {
 
 div.gallery {
   margin: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #303949;
   float: left;
   width: 23%;
+  background-color: white;
+  border-radius: 4px;
 }
 
 div.gallery:hover {
@@ -270,16 +273,20 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: auto;
+  border-radius: 4px;
 }
 
-#last-gallery-item {
+/* #last-gallery-item {
   border: none;
-}
+} */
 div.desc {
   padding: 0 15px 0 15px;
   text-align: center;
 }
 
+.dev-projects {
+  background-color: red;
+}
 /* div.clearfix::after {
   content: "";
   clear: both;
@@ -288,27 +295,40 @@ div.desc {
 
 /* -----------------------------ABOUT PAGE------------------------------ */
 .about {
- margin: 20px 40px 25px 20px;
+ /* margin: 20px 40px 25px 20px; */
 }
-.about-section {
+.about {
   display: flex;
-  flex-direction: row;
-  padding-right: 40px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 280px 25px 280px;
+  /* padding-right: 40px; */
 }
 
+.about-image {
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.about h1 {
+  margin: 10px;
+  padding-bottom: 20px;
+}
+/* 
 .about-left {
   width: 180%;
   
-}
+} */
 
-.about-left p {
+/* .about-left p {
   padding-bottom: 15px;
-}
+} */
 
-.about-right img {
+/* .about-right img {
   float: right;
   border-radius: 8px;
-}
+} */
 
 /* -----------------------------SERVICES PAGE------------------------------ */
 /* div.services {
@@ -320,20 +340,21 @@ div.desc {
 
 div.services-gallery {
   margin: 10px;
-  border: 1px solid #ccc;
-  border-radius: 8px 8px 0 0;
+  border: 1px solid #303949;
+  border-radius: 4px;
   float: left;
   width: 23%;
+  background-color: white;
   /* max-width: 230px; */
 }
 
 .services {
   width: auto;
   /* background-color: #303949; */
-  background-color: black;
+  background-color: #303949;
   /* opacity: 0.7; */
   height: 150px;
-  border-radius: 8px 8px 0 0;
+  border-radius: 4px 4px 0 0;
 }
   
 .services h4 {
