@@ -4,6 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  /* background-color: #f2f2f2; */
 }
 
 /* -----------------------------HEADER------------------------------ */
@@ -317,18 +318,27 @@ div.desc {
   width: 23%;
 } */
 
-.services {
-  /* height: 180px; */
-  width: auto;
-  /* width: 100%;
-  height: auto; */
-  background-color: #303949;
+div.services-gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px 8px 0 0;
+  float: left;
+  width: 23%;
+  /* max-width: 230px; */
 }
 
+.services {
+  width: auto;
+  /* background-color: #303949; */
+  background-color: black;
+  /* opacity: 0.7; */
+  height: 150px;
+  border-radius: 8px 8px 0 0;
+}
+  
 .services h4 {
   margin: 0;
-  padding-top: 50px;
-  padding-bottom: 50%;
+  padding: 50px 20px 50% 20px;
   color: white;
 }
 
