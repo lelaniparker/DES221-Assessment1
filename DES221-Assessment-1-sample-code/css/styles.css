@@ -150,7 +150,7 @@ img.logo {
   background-color: #fff;
   /* padding-bottom: 20px; */
   text-align: center;
-  padding: 20px 150px 20px 150px;
+  padding-bottom: 25px;
 }
 
 .email {
@@ -170,17 +170,17 @@ img.logo {
   margin: 0;
 }
 
-.email h3 {
+.email h1 {
   /* margin-bottom: 0;
   margin-top: 0; */
   /* color: #303949; */
-  font-size: 20px;
-  margin: 0;
+  /* font-size: 20px; */
+  /* margin: 0; */
 }
 
 .contact i {
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: 10px;
+  padding-left: 40px;
 }
 /* .email h4 {
   margin-top: 1px;
@@ -239,6 +239,7 @@ input[type=submit]:hover {
   margin-top: 20px;
   margin-left: 12px;
   text-align: left;
+  margin: 20px 250px 0 250px;
 }
 
 .contactform h2 {
@@ -261,8 +262,8 @@ input[type=submit]:hover {
 }
 
 .project-main h1 {
-  margin-bottom: 0;
-  margin-bottom: 0;
+  margin-bottom: 36px;
+  /* margin-bottom: ; */
 }
 
 .project-main p {
@@ -330,7 +331,8 @@ div.desc {
 
 .about h1 {
   margin: 10px;
-  padding-bottom: 20px;
+  margin-bottom: 36px;
+  /* padding-bottom: 20px; */
 }
 /* 
 .about-left {
