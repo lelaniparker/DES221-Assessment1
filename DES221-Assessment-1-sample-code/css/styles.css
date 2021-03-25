@@ -5,12 +5,15 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f2f2f2;
-  margin-top: 10%;
+  margin-top: 12%;
   /* margin: 10% 30px 0 30px; */
   background-image: url(/assets/background-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 
 /* -----------------------------HEADER------------------------------ */
@@ -95,10 +98,13 @@ img.logo {
   background-color: #303949;
   overflow: hidden;
   clear: left;
-  padding-right: 10px;
+  /* padding-right: 10px; */
   position: fixed;
+  position: 0;
   width: 100%;
   top: 0;
+  border-bottom: white 1px solid;
+  /* margin-right: 30px; */
 }
 
 /* Style the links inside the navigation bar */
@@ -138,9 +144,11 @@ img.logo {
 /* -----------------------------INDEX PAGE------------------------------ */
 /* hero-section */
 .hero-section {
-  padding-top: 25vh;
+  padding-top: 20vh;
   text-align: center;
-  height: 480px;
+  /* height: 73vh; */
+  height: 100vh;
+  /* padding-bottom: ; */
 }
 
 .hero-section h1 {
@@ -160,7 +168,10 @@ img.logo {
   background-color: #fff;
   /* padding-bottom: 20px; */
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 45px;
+  margin: 100px 250px 60px 250px;
+  border-radius: 4px;
+  padding-top: 10px;
 }
 
 .email {
@@ -186,6 +197,8 @@ img.logo {
   /* color: #303949; */
   /* font-size: 20px; */
   /* margin: 0; */
+  /* padding-top: 90px; */
+  /* margin-top: 90px; */
 }
 
 .contact i {
@@ -254,7 +267,7 @@ input[type=submit]:hover {
   margin-top: 20px;
   margin-left: 12px;
   text-align: left;
-  margin: 20px 250px 0 250px;
+  margin: 20px 100px 0 100px;
 }
 
 .contactform h2 {
@@ -337,6 +350,7 @@ div.desc {
   background-color: #303949;
   margin: 15px 250px 15px 250px;
   border-radius: 4px;
+  margin-bottom: 60px;
   /* padding-right: 40px; */
 }
 
@@ -376,7 +390,7 @@ div.desc {
 div.services-gallery {
   margin: 10px;
   border: 1px solid #303949;
-  border-radius: 4px;
+  border-radius: 8px;
   float: left;
   width: 23%;
   background-color: white;
@@ -409,6 +423,8 @@ div.services-gallery {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  border-top: white 1px solid;
+  /* width: 100%; */
 }
 
 .footer i {
