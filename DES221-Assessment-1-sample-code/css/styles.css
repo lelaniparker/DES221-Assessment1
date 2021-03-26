@@ -179,6 +179,10 @@ img.logo {
   padding-top: 10px;
 }
 
+.contact h3 {
+  font-size: 100%;
+}
+
 .email {
   display: flex;
   flex-direction: row;
@@ -307,6 +311,10 @@ input[type=submit]:hover {
   margin-top: 8px;
 }
 
+.project-main h3 {
+  font-size: 100%;
+}
+
 div.gallery {
   margin: 10px;
   border: 1px solid #303949;
@@ -385,9 +393,9 @@ div.desc {
   
 } */
 
-/* .about-left p {
-  padding-bottom: 15px;
-} */
+.about p {
+  font-size: 120%;
+}
 
 /* .about-right img {
   float: right;
