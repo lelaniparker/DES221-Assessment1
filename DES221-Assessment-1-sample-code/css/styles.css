@@ -455,6 +455,10 @@ div.services-gallery {
   color: white;
 }
 
+#bottom-card {
+  margin-right: 5%;
+}
+
  /* -----------------------------FOOTER------------------------------ */
 /* Style the footer */
 .footer {
