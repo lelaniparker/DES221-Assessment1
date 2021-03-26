@@ -279,8 +279,12 @@ input[type=submit]:hover {
 /* Image gallery styles */
 .project-main {
   text-align: center;
-  padding: 0 50px 0 50px;
+  padding: 20px 40px 20px 40px;
   /* margin-left: 15px; */
+  background-color: white;
+  margin: 20px 90px 50px 90px;
+  border-radius: 4px;
+  /* width: auto; */
 }
 .projects {
   display: flex;
@@ -327,6 +331,7 @@ div.gallery img {
 div.desc {
   padding: 0 15px 0 15px;
   text-align: center;
+  background-color: #f2f2f2;
 }
 
 
