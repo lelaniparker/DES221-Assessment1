@@ -2,10 +2,14 @@
   box-sizing: border-box;
 }
 
+/* importing Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&family=Roboto&display=swap');
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   background-color: #f2f2f2;
-  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   margin-top: 12%;
   /* margin: 10% 30px 0 30px; */
   background-image: url(/assets/background-image.jpg);
@@ -346,12 +350,20 @@ div.gallery img {
   border: none;
 } */
 div.desc {
-  padding: 10px 15px;
+  /* padding: 20px 15px 15px 20px; */
   text-align: center;
   background-color: #f2f2f2;
   border-radius: 8px;
 }
 
+.desc h4 {
+  /* padding-top: 0; */
+  margin: 15px;
+}
+
+.desc p {
+  padding: 10px 15px 5px 15px;
+}
 
 /* div.clearfix::after {
   content: "";
