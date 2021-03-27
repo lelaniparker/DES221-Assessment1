@@ -4,8 +4,8 @@
 
 body {
   background-color: #f2f2f2;
-  font-family: 'Montserrat', sans-serif;
-  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'IBM Plex Sans', sans-serif;
   margin-top: 12%;
   background-image: url(/assets/background-image.jpg);
   background-repeat: no-repeat;
@@ -104,6 +104,7 @@ img.logo {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: 500;
 }
 
 /* Change the color of links on hover */
@@ -157,10 +158,6 @@ img.logo {
   margin: 100px 250px 60px 250px;
   border-radius: 4px;
   padding-top: 10px;
-}
-
-.contact h3 {
-  font-size: 100%;
 }
 
 .email {
@@ -259,6 +256,7 @@ input[type=submit]:hover {
 
 .project-main h3 {
   font-size: 100%;
+  /* font-weight: 300; */
 }
 
 div.gallery {
@@ -322,6 +320,7 @@ div.desc {
 
 .about p {
   font-size: 120%;
+  font-weight: 300;
 }
 
 /* -----------------------------SERVICES PAGE------------------------------ */
@@ -352,6 +351,7 @@ div.services-gallery {
   margin: 0;
   padding: 30px 20px 50% 20px;
   color: white;
+  letter-spacing: 0.5px;
 }
 
 #bottom-card {
