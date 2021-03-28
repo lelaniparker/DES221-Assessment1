@@ -7,7 +7,7 @@ body {
   /* font-family: 'Montserrat', sans-serif; */
   font-family: 'IBM Plex Sans', sans-serif;
   margin-top: 12%;
-  background-image: url(/assets/background-image.jpg);
+  background-image: url(../assets/background-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
